@@ -1,0 +1,5 @@
+python train.py hparams/coco_search18.json data --cuda=0
+
+
+tensorboard --logdir=assets/log_20221130_0333
+tensorboard --logdir=assets/log_20221208_1725
